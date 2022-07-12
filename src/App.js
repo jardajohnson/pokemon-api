@@ -3,7 +3,7 @@ import PokeList from './components/PokeList';
 function App() {
 	return (
 		<div>
-			<header>
+			<header className='d-flex justify-content-center'>
 				<PokeList />
 			</header>
 		</div>
